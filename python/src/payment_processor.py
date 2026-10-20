@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from decimal import Decimal
 
-from python.src.adapter_pattern_demo import PaymentResult
+from payment_results import PaymentResult
 
 # ---------------------------------------------------------------------------
 # 1. TARGET: the interface our own code wants to use.
